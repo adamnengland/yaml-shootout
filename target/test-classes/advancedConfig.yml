@@ -1,0 +1,6 @@
+--- !com.adamnengland.YamlConfig
+simple: yaml-shootout
+
+advanced: !com.adamnengland.Advanced
+  email: test@example.com
+  type: gmail
