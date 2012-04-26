@@ -23,7 +23,6 @@ public class SnakeYamlTest {
     InputStream input = new FileInputStream(new File("src/test/resources/advancedConfig.yml"));
     YamlConfig data = (YamlConfig) Yaml.load(input);
     assertEquals("yaml-shootout", data.simple);
-    System.out.println(data.advanced.email);
     assertEquals("gmail", data.advanced.type);
   }
 }
